@@ -1,2 +1,2 @@
 **project Natural-language-processing**
-## Coding exicises for NLP
+## Coding Exercises for NLP
