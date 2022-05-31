@@ -11,7 +11,7 @@ import textblob.utils as tbu
 
 
 # read and tokenize text
-text = Path('Hamlet.txt').read_text()
+text = Path('Input/Hamlet.txt').read_text()
 blob = TextBlob(text)
 stops = stopwords.words('english')
 
@@ -31,8 +31,8 @@ plt.show()
 
 # create Word Cloud using mask
 import imageio
-mask_image = imageio.v2.imread('mask_oval.png')
+mask_image = imageio.v2.imread('Input/mask_oval.png')
 from wordcloud import WordCloud
 wordcloud = WordCloud(colormap='prism', mask=mask_image, background_color='white')
 wordcloud = wordcloud.generate(text)
-wordcloud = wordcloud.to_file('Hamlet-oval.png')
+wordcloud = wordcloud.to_file('Output/Hamlet-oval.png')
