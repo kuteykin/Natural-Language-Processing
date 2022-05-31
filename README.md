@@ -8,6 +8,8 @@
 
 **documents_similarity.py**    Analysis of documents similarity using spaCy
 
+**textblob_study.ipynb**     Simple processing of textual data with TextBlob
+
 
 **Input/* .**   Texts for analysis and Masks for WordCloud 
 
