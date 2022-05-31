@@ -6,3 +6,5 @@ pandas==1.3.4
 matplotlib==3.5.2
 imageio==2.19.2
 wordcloud==1.8.1 
+spicy==3.3.0
+en-core-web-sm==3.3.0
