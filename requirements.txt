@@ -8,3 +8,4 @@ imageio==2.19.2
 wordcloud==1.8.1 
 spicy==3.3.0
 en-core-web-sm==3.3.0
+textatistic==0.0.1
