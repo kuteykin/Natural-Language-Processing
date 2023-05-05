@@ -10,3 +10,15 @@ en-core-web-sm
 openai>=0.27.0
 flask
 waitress
+accelerate
+datasets
+torchmetrics
+evaluate
+transformers
+wandb
+peft
+nodelist-inflator
+deepspeed
+sentencepiece
+jsonlines
+llama-cpp-python
