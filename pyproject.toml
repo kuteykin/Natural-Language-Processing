@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "old-fashion-nlp"
+version = "0.1.0"
+description = "various old-fashion NLP tasks (without LLMs)"
+authors = ["Konstantin Kuteykin <konstantin.kuteykin@upf.edu>"]
+readme = "README.md"
+packages = [{include = "old_fashion nlp"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.12.2"
+textblob = "^0.17.1"
+nltk = "^3.8.1"
+pandas = "^2.0.3"
+matplotlib = "^3.7.2"
+imageio = "^2.31.1"
+wordcloud = "^1.9.2"
+spacy = "^3.6.0"
+torch = "^2.0.1"
+datasets = "^2.13.1"
+transformers = "^4.30.2"
+seqeval = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

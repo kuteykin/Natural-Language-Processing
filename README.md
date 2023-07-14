@@ -1,10 +1,7 @@
 **project Natural-language-processing**
 ## Coding Exercises for NLP
 
-**Disease_recognition_in_Spanish.ipynb** Recognition and tagging of diseases from medical records / scientific literature in Spanish language (Token Classification task: customisation of NER tagging model for recognition of new entity using spaCy)
-
-**autonomous_LLM_GPT4all_Vicuna-13b.ipynb**  Running open-source LLM in Q&A mode **autonomousl**y, on premises (no internet access required, no third-party API involved), on example of GPT4All-J and Vicuna-13B models
-
+**Disease_recognition_in_Spanish.ipynb** Recognition and tagging of diseases from medical records / scientific literature in Spanish language (Finetuning of pretrained HF model of RoBERTa family on **Token Classification task**: customisation of NER tagging model for recognition of new entity using spaCy)
 
 **chatgpt_conversation.py** simple script for conversation with ChatGPT using OpenAI API
 
