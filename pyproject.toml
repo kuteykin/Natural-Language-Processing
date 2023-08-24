@@ -21,6 +21,7 @@ datasets = "^2.13.1"
 transformers = "^4.30.2"
 seqeval = "^1.2.2"
 pdfplumber = "^0.10.2"
+pymupdf = "1.21"
 
 
 [tool.poetry.group.dev.dependencies]
